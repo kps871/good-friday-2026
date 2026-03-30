@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { font-size: 16px; }
 
     body {
@@ -32,25 +31,27 @@
     .cross-mark {
       display: block;
       font-size: 1rem;
-      color: #8a6840;
+      color: #a07840;
       margin-bottom: 0.5rem;
       letter-spacing: 0.15em;
     }
 
+    /* FIXED: was #4a4440, now bright warm white */
     .event-label {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 0.75rem;
+      font-size: 0.85rem;
       letter-spacing: 0.22em;
       text-transform: uppercase;
-      color: #4a4440;
+      color: #c9bfaa;
     }
 
+    /* FIXED: was #4a4440, now clearly visible */
     .station-number {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: #4a4440;
+      color: #a09080;
       margin-bottom: 0.5rem;
     }
 
@@ -64,35 +65,37 @@
       letter-spacing: 0.02em;
     }
 
+    /* FIXED: bumped from 1.125rem to 1.2rem, lightened from #b5aea5 to #cec8be */
     .body-text {
-      font-size: 1.125rem;
-      line-height: 1.9;
-      color: #b5aea5;
+      font-size: 1.2rem;
+      line-height: 1.95;
+      color: #cec8be;
     }
 
     .body-text p { margin-bottom: 1.3em; }
     .body-text p:last-child { margin-bottom: 0; }
 
+    /* FIXED: increased contrast throughout */
     .quote-block {
       margin: 1.75rem 0;
-      padding: 1.1rem 1.3rem;
-      border-left: 2px solid #8a6840;
-      background: #141210;
+      padding: 1.2rem 1.4rem;
+      border-left: 3px solid #a07840;
+      background: #161310;
     }
 
     .quote-block p {
       font-family: 'Cormorant Garamond', serif;
       font-style: italic;
-      color: #c4aa7a;
-      font-size: 1.2rem;
-      line-height: 1.7;
+      color: #d4bc88;
+      font-size: 1.3rem;
+      line-height: 1.75;
       margin: 0 0 0.6rem !important;
     }
 
     .quote-block cite {
       font-style: normal;
-      font-size: 0.75rem;
-      color: #4a4440;
+      font-size: 0.8rem;
+      color: #8a7a60;
       letter-spacing: 0.08em;
       font-family: 'Crimson Pro', Georgia, serif;
     }
@@ -100,29 +103,31 @@
     .nav-section {
       margin-top: 3rem;
       padding-top: 1.5rem;
-      border-top: 1px solid #1e1a16;
+      border-top: 1px solid #2a2520;
     }
 
+    /* FIXED: was #3a3530, now legible */
     .nav-label {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 0.65rem;
+      font-size: 0.75rem;
       letter-spacing: 0.22em;
       text-transform: uppercase;
-      color: #3a3530;
+      color: #907860;
       margin-bottom: 0.7rem;
     }
 
+    /* FIXED: was #5a5450, now readable */
     .nav-text {
-      font-size: 0.9rem;
-      line-height: 1.75;
-      color: #5a5450;
+      font-size: 1rem;
+      line-height: 1.8;
+      color: #a09080;
       font-style: italic;
     }
 
     footer {
       margin-top: 3.5rem;
       text-align: center;
-      color: #2a2520;
+      color: #3a3530;
       font-size: 0.8rem;
       letter-spacing: 0.25em;
     }
